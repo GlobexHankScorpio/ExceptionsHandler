@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Technosylva Exceptions Manager</Title>
+    <PackageId>Tsyl_ExceptionHandler</PackageId>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Version>1.0.2</Version>
+    <Description>A modern way to handle exceptions</Description>
+    <Copyright>Moyo Productions</Copyright>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,7 @@
+bin/
+obj/
+.idea/
+.vs/
+frontend/node_modules
+*.user
+frontend/dist

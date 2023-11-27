@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Technosylva Exceptions Manager</Title>
+    <PackageId>Tsyl_ExceptionHandler</PackageId>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Version>1.0.28</Version>
+    <Description>.NET 8 and Serilog to handle and log exceptions efficiently.</Description>
+    <Copyright>Technosylva</Copyright>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Serilog.AspNetCore" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Readme.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
